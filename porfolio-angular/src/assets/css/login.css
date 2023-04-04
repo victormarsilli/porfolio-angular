@@ -1,0 +1,54 @@
+/* contacto */
+
+.login-email {
+  position: absolute;
+  width: 40rem;
+  height: 30rem;
+  left: 30%;
+  top: 20%;
+}
+
+.form-label {
+  position: relative;
+  color: white;
+  left: 15rem;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-label i {
+  font-size: 2rem;
+}
+
+.row {
+  position: absolute;
+  width: 40rem;
+  height: 10rem;
+  left: 30%;
+  top: 50%;
+}
+.col-form-label{
+  position: relative;
+  color: white;
+  left: 13rem;
+  bottom: 3rem;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-text{
+    position: absolute;
+    bottom: 4rem;
+    right: 15rem;
+}
+
+.btn-primary{
+    position: absolute;
+    width: 8rem;
+    top: 8rem;
+    left: 14rem;
+}
+
+.form-control:hover {
+  background-color: black;
+  color: #ffffff;
+}
