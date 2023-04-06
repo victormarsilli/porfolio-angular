@@ -1,435 +1,435 @@
 /* barra logo */
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  html {
-    overflow-x: hidden;
-  }
-  
-  body {
-    background-color: #0d6efd;
-  }
-  
-  .container-fluid {
-    position: fixed;
-    background-color: rgb(5, 5, 5);
-    width: 100%;
-    height: 23%;
-    z-index: 900;
-    flex: none;
-  }
-  
-  #navbarSupporteContent {
-    left: 55rem;
-    font-size: 3rem;
-    font-style: white;
-  }
-  
-  /* barra iconos */
-  .arg,
-  .facebook,
-  .instagram,
-  .linkedin,
-  .login {
-    height: 1rem;
-    width: 2rem;
-    position: absolute;
-    color: white;
-    font-size: 3rem;
-    bottom: 1rem;
-    transition: 0.5s;
-    z-index: 999;
-  }
-  
-  .arg {
-    bottom: 4.5rem;
-  }
-  
-  .facebook {
-    bottom: 3rem;
-    left: 40rem;
-  }
-  .instagram {
-    bottom: 3rem;
-    left: 50rem;
-  }
-  
-  .linkedin {
-    bottom: 3rem;
-    left: 60rem;
-  }
-  
-  .login {
-    bottom: 2.5rem;
-    left: 75rem;
-    font-size: 2rem;
-  }
-  
-  /* navegacion lateral */
-  .nav-lateral {
-    position: fixed;
-    list-style: none;
-    z-index: 310;
-    top: 7rem;
-    transition: 0.5s;
-  }
-  .nav-lateral a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .acer {
-    padding: 1rem;
-    border: solid 1px white;
-    border-radius: 20%;
-    width: 6rem;
-    background-color: rgb(5, 5, 5);
-  }
-  
-  .inicio{
-    padding: 0.7rem;
-    border: solid 1px white;
-    border-radius: 20%;
-    width: 4rem;
-    height: 4rem;
-    background-color: rgb(5, 5, 5);
-    color: white;
-  }
-  
-  .inicio i{
-    font-size: 2rem;
-  }
-  
-  .con {
-    padding: 1rem;
-    border: solid 1px white;
-    border-radius: 20%;
-    width: 8rem;
-    background-color: rgb(5, 5, 5);
-  }
-  .apre{
-    padding: 1rem;
-    border: solid 1px white;
-    border-radius: 20%;
-    width: 10rem;
-    background-color: rgb(5, 5, 5);
-  }
-  .proy{
-    padding: 1rem;
-    border: solid 1px white;
-    border-radius: 20%;
-    width: 12rem;
-    background-color: rgb(5, 5, 5);
-  }
-  .exp {
-    padding: 1rem;
-    border: solid 1px white;
-    border-radius: 20%;
-    width: 13rem;
-    background-color: rgb(5, 5, 5);
-  }
-  
-  /* hover barra lateral*/
-  
-  
-  .nav-lateral :hover {
-    background-color: #0d6efd;
-    color: white;
-  }
-  .nav-lateral a:hover {
-    transition: 0, 5s;
-  }
-  
-  
-  .facebook:hover {
-    color: #0d6efd;
-  }
-  .instagram:hover {
-    color: #0d6efd;
-  }
-  .linkedin:hover {
-    color: #0d6efd;
-  }
-  .login:hover {
-    color: #0d6efd;
-  }
-  
-  /* fondo */
-  
-  .div-fondo {
-    height: 40rem;
-    left: 18%;
-  }
-  .d-block w100 {
-    width: 40%;
-    z-index: 90;
-  }
-  
-  /* foto usuario */
-  .card {
-    position: absolute;
-    width: 40%;
-    top: 4rem;
-    margin: 80px;
-    border: transparent;
-    background-color: transparent;
-  }
-  
-  .carrousel-item active {
-    position: relative;
-  }
-  
-  .card-img-top {
-    border-radius: 100%;
-    width: 15rem;
-    height: 15rem;
-  }
-  
-  .btn-usuario{
-    position: relative;
-    width: 3rem;
-    left: 6rem;
-    bottom: 15rem;
-  }
-  
-  .btn-nombre2{
-    position: relative;
-    left: 24rem;
-    bottom: 3.6rem;
-  }
-  
-  /* acerca de mi */
-  
-  .card p,
-  h1,
-  h2 {
-    color: white;
-  }
-  
-  .card h1 {
-    position: relative;
-    left: 20rem;
-    bottom: 18rem;
-    font-size: 3rem;
-    font-style: oblique;
-  }
-  
-  .btn-acercaDeMi1{
-    position: relative;
-    left: 3rem;
-    bottom: 9rem;
-  }
-  .btn-acercaDeMi2{
-    position: relative;
-    left: 28rem;
-    bottom: 11.3rem;
-  }
-  
-  /* experiencia laboral */
-  
-  .experiencia h2 {
-    position: absolute;
-    color: white;
-    margin-bottom: 4rem;
-    right: 25rem;
-    top: 53rem;
-  }
-  
-  .experiencia p {
-    position: absolute;
-    color: white;
-    border: solid 5px;
-    width: 20rem;
-    height: 20rem;
-    padding: 1rem;
-  }
-  
-  .primero {
-    position: relative;
-    left: 18rem;
-    top: 20rem;
-  }
-  
-  .segundo {
-    position: relative;
-    left: 40rem;
-    top: 17.7rem;
-  }
-  
-  .tercero {
-    position: relative;
-    left: 62rem;
-    top: 15.4rem;
-  }
-  
-  .btn-p{
-    position: relative;
-    left: 7rem;
-    bottom: 3rem;
-  }
-  
-  /* barra de progreso */
-  
-  .progress {
-    position: relative;
-    width: 40rem;
-    height: 4rem;
-    bottom: 5rem;
-    left: 19rem;
-    margin: 3rem;
-  }
-  
-  .progress-bar {
-    color: #ffffff;
-    background-color: #000;
-  }
-  
-  .aprendizaje {
-    position: absolute;
-    left: 15rem;
-    top: 100rem;
-  }
-  
-  .aprendizaje h3 {
-    font-size: 3rem;
-    position: inherit;
-    color: rgb(255, 255, 255);
-    left: 23rem;
-    bottom: 97rem;
-  }
-  
-  /* logos de progreso */
-  
-  .html5 {
-    position: relative;
-    font-size: 5rem;
-    color: white;
-    left: 15rem;
-    bottom: 48.8rem;
-  }
-  
-  .css3 {
-    position: relative;
-    font-size: 5rem;
-    color: white;
-    left: 15rem;
-    bottom: 49.2rem;
-  }
-  
-  .js {
-    position: relative;
-    font-size: 5rem;
-    color: white;
-    left: 15rem;
-    bottom: 50rem;
-  }
-  
-  .bootstrap {
-    position: relative;
-    font-size: 5rem;
-    color: white;
-    left: 15rem;
-    bottom: 50.5rem;
-  }
-  
-  .database {
-    position: relative;
-    font-size: 5rem;
-    color: white;
-    left: 15rem;
-    bottom: 51rem;
-  }
-  
-  .java {
-    position: relative;
-    font-size: 5rem;
-    color: white;
-    left: 15rem;
-    bottom: 51.5rem;
-  }
-  
-  
-  /* proyectos */
-  
-  #proyectos{
-    position: relative;
-    bottom: 6rem;
-    left: 15rem;
-    font-size: 3rem;
-  }
-  
-  .proyectos{
-    position: absolute;
-    width: 50rem;
-    height: 25rem;
-    border: solid 5px white;
-    left: 13rem;
-    bottom: 10rem;
-  }
-  
-  .titulo-proyecto{
-    position: relative;
-    bottom: 4rem;
-    left: 14rem;
-  }
-  .proyecto-1{
-    padding-left: 2rem;
-    padding-top: 1rem;
-  }
-  
-  .frontend{
-    color: #ffffff;
-  }
-  
-  .backend{
-    position: absolute;
-    right: 0;
-    right: 2rem;
-    top: 8rem;
-    color: #ffffff;
-  }
-  
-  
-  .git-front{
-    position: absolute;
-    color: #000000;
-    left: 3rem;
-    bottom: 1rem;
-  }
-  .git-back{
-    position: absolute;
-    color: #000000;
-    left: 31rem;
-    bottom: 1.2rem;
-  }
-  .fa-square-github{
-    color: #000;
-    font-size: 1.5rem;
-  }
-  
-  .btn-proyectos{
-    position: relative;
-    left: 40rem;
-    bottom: 15rem;
-  }
-  
-  /*estilo boton*/
-  
-  .btn {
-    color: #ffffff;
-    background-color: #000;
-    border: #ffffff;
-  }
-  
-  /* footer */
-  
-  .footer{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-  }
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #0d6efd;
+}
+
+.container-fluid {
+  position: fixed;
+  background-color: rgb(5, 5, 5);
+  width: 100%;
+  height: 23%;
+  z-index: 900;
+  flex: none;
+}
+
+#navbarSupporteContent {
+  left: 55rem;
+  font-size: 3rem;
+  font-style: white;
+}
+
+/* barra iconos */
+.arg,
+.facebook,
+.instagram,
+.linkedin,
+.login {
+  height: 1rem;
+  width: 2rem;
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  bottom: 1rem;
+  transition: 0.5s;
+  z-index: 999;
+}
+
+.arg {
+  bottom: 4.5rem;
+}
+
+.facebook {
+  bottom: 3rem;
+  left: 40rem;
+}
+.instagram {
+  bottom: 3rem;
+  left: 50rem;
+}
+
+.linkedin {
+  bottom: 3rem;
+  left: 60rem;
+}
+
+.login {
+  bottom: 2.5rem;
+  left: 75rem;
+  font-size: 2rem;
+}
+
+/* navegacion lateral */
+.nav-lateral {
+  position: fixed;
+  list-style: none;
+  z-index: 310;
+  top: 7rem;
+  transition: 0.5s;
+}
+.nav-lateral a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.acer {
+  padding: 1rem;
+  border: solid 1px white;
+  border-radius: 20%;
+  width: 6rem;
+  background-color: rgb(5, 5, 5);
+}
+
+.inicio{
+  padding: 0.7rem;
+  border: solid 1px white;
+  border-radius: 20%;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(5, 5, 5);
+  color: white;
+}
+
+.inicio i{
+  font-size: 2rem;
+}
+
+.con {
+  padding: 1rem;
+  border: solid 1px white;
+  border-radius: 20%;
+  width: 8rem;
+  background-color: rgb(5, 5, 5);
+}
+.apre{
+  padding: 1rem;
+  border: solid 1px white;
+  border-radius: 20%;
+  width: 10rem;
+  background-color: rgb(5, 5, 5);
+}
+.proy{
+  padding: 1rem;
+  border: solid 1px white;
+  border-radius: 20%;
+  width: 12rem;
+  background-color: rgb(5, 5, 5);
+}
+.exp {
+  padding: 1rem;
+  border: solid 1px white;
+  border-radius: 20%;
+  width: 13rem;
+  background-color: rgb(5, 5, 5);
+}
+
+/* hover barra lateral*/
+
+
+.nav-lateral :hover {
+  background-color: #0d6efd;
+  color: white;
+}
+.nav-lateral a:hover {
+  transition: 0, 5s;
+}
+
+
+.facebook:hover {
+  color: #0d6efd;
+}
+.instagram:hover {
+  color: #0d6efd;
+}
+.linkedin:hover {
+  color: #0d6efd;
+}
+.login:hover {
+  color: #0d6efd;
+}
+
+/* fondo */
+
+.div-fondo {
+  height: 40rem;
+  left: 18%;
+}
+.d-block w100 {
+  width: 40%;
+  z-index: 90;
+}
+
+/* foto usuario */
+.card {
+  position: absolute;
+  width: 40%;
+  top: 4rem;
+  margin: 80px;
+  border: transparent;
+  background-color: transparent;
+}
+
+.carrousel-item active {
+  position: relative;
+}
+
+.card-img-top {
+  border-radius: 100%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.btn-usuario{
+  position: relative;
+  width: 3rem;
+  left: 6rem;
+  bottom: 15rem;
+}
+
+.btn-nombre2{
+  position: relative;
+  left: 24rem;
+  bottom: 3.6rem;
+}
+
+/* acerca de mi */
+
+.card p,
+h1,
+h2 {
+  color: white;
+}
+
+.card h1 {
+  position: relative;
+  left: 20rem;
+  bottom: 18rem;
+  font-size: 3rem;
+  font-style: oblique;
+}
+
+.btn-acercaDeMi1{
+  position: relative;
+  left: 3rem;
+  bottom: 9rem;
+}
+.btn-acercaDeMi2{
+  position: relative;
+  left: 28rem;
+  bottom: 11.3rem;
+}
+
+/* experiencia laboral */
+
+.experiencia h2 {
+  position: absolute;
+  color: white;
+  margin-bottom: 4rem;
+  right: 25rem;
+  top: 53rem;
+}
+
+.experiencia p {
+  position: absolute;
+  color: white;
+  border: solid 5px;
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+}
+
+.primero {
+  position: relative;
+  left: 18rem;
+  top: 20rem;
+}
+
+.segundo {
+  position: relative;
+  left: 40rem;
+  top: 17.7rem;
+}
+
+.tercero {
+  position: relative;
+  left: 62rem;
+  top: 15.4rem;
+}
+
+.btn-p{
+  position: relative;
+  left: 7rem;
+  bottom: 3rem;
+}
+
+/* barra de progreso */
+
+.progress {
+  position: relative;
+  width: 40rem;
+  height: 4rem;
+  bottom: 5rem;
+  left: 19rem;
+  margin: 3rem;
+}
+
+.progress-bar {
+  color: #ffffff;
+  background-color: #000;
+}
+
+.aprendizaje {
+  position: absolute;
+  left: 15rem;
+  top: 100rem;
+}
+
+.aprendizaje h3 {
+  font-size: 3rem;
+  position: inherit;
+  color: rgb(255, 255, 255);
+  left: 23rem;
+  bottom: 97rem;
+}
+
+/* logos de progreso */
+
+.html5 {
+  position: relative;
+  font-size: 5rem;
+  color: white;
+  left: 15rem;
+  bottom: 48.8rem;
+}
+
+.css3 {
+  position: relative;
+  font-size: 5rem;
+  color: white;
+  left: 15rem;
+  bottom: 49.2rem;
+}
+
+.js {
+  position: relative;
+  font-size: 5rem;
+  color: white;
+  left: 15rem;
+  bottom: 50rem;
+}
+
+.bootstrap {
+  position: relative;
+  font-size: 5rem;
+  color: white;
+  left: 15rem;
+  bottom: 50.5rem;
+}
+
+.database {
+  position: relative;
+  font-size: 5rem;
+  color: white;
+  left: 15rem;
+  bottom: 51rem;
+}
+
+.java {
+  position: relative;
+  font-size: 5rem;
+  color: white;
+  left: 15rem;
+  bottom: 51.5rem;
+}
+
+
+/* proyectos */
+  
+#proyectos{
+  position: absolute;
+  bottom: 30rem;
+  left: 15rem;
+  font-size: 3rem;
+}
+
+.proyectos{
+  position: absolute;
+  width: 50rem;
+  height: 25rem;
+  border: solid 5px white;
+  left: 17rem;
+  top: 160rem;
+}
+
+.titulo-proyecto{
+  position: relative;
+  bottom: 4rem;
+  left: 14rem;
+}
+.proyecto-1{
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.frontend{
+  color: #ffffff;
+}
+
+.backend{
+  position: absolute;
+  right: 0;
+  right: 2rem;
+  top: 4rem;
+  color: #ffffff;
+}
+
+
+.git-front{
+  position: absolute;
+  color: #000000;
+  left: 3rem;
+  bottom: 1rem;
+}
+.git-back{
+  position: absolute;
+  color: #000000;
+  left: 31rem;
+  bottom: 1.2rem;
+}
+.fa-square-github{
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.btn-proyectos{
+  position: relative;
+  left: 40rem;
+  bottom: 15rem;
+}
+
+/*estilo boton*/
+
+.btn {
+  color: #ffffff;
+  background-color: #000;
+  border: #ffffff;
+}
+
+
+/* footer */
+
+.footer{
+  position: absolute;
+  width: 100%;
+  top: 190rem;
+}

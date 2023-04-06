@@ -1,0 +1,33 @@
+/* contacto */
+
+.contacto{
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    left: 30%;
+    top: 20%;
+  }
+  
+  .form-label{
+    position: relative;
+    color: white;
+    left: 8rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .form-label i{
+    font-size: 2rem;
+  }
+
+  .btn-primary{
+    position: absolute;
+    left: 15em;
+    top: 23rem;
+    width: 8rem;
+  }  
+  
+  .form-control:hover {
+    background-color: black;
+    color: #ffffff;
+  }
