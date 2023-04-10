@@ -5,8 +5,8 @@ import { ErrorComponent } from './components/error/error.component';
 
 
 const routes: Routes = [
-{path:'contacto',component:ContactoComponent},
-{path:'',redirectTo:'/',pathMatch:'full'},
+{path:'',component:inicioComponent},
+{path:'',redirectTo:'/'},
 {path:'**',component:ErrorComponent}
 ];
 
