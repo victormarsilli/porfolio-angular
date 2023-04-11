@@ -20,7 +20,7 @@
                 class="fa-brands fa-linkedin linkedin"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./login.html"><i class="fa-solid fa-user login" target="_blank"></i>
+            <a class="nav-link" routerLink="/login"><i class="fa-solid fa-user login" target="_blank"></i>
             </a>
           </li>
         </ul>
@@ -47,16 +47,12 @@
   </content>
 
   <!-- barra nav -->
+  
+  
   <div class="nav-lateral">
-    <li class="inicio"><a href="../../app.component.html"><i class="fa-solid fa-house"></i></a></li>
+    <li class="inicio"><a routerLink="/inicio"><i class="fa-solid fa-house"></i></a></li>
   </div>
-
-
   <!-- footer -->
-  <footer class="footer btn">
-    <div>
-      &copy Victor Marsilli - DERECHOS RESERVADOS 2023
-    </div>
-  </footer>
+  <app-footer></app-footer>
 
   <router-outlet></router-outlet>

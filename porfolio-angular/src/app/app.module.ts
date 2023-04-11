@@ -13,7 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ModalBotonComponent } from './components/modal-boton/modal-boton.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { LoginComponent } from './components/login/login.component';
-import { InicioComponent } from './inicio/inicio.component';
+import { InicioComponent } from './components/inicio/inicio.component';
 import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
